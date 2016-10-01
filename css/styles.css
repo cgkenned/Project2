@@ -1,0 +1,28 @@
+/*header*/
+body {
+}
+
+body h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body p {
+  font-family: 'Alegreya', serif;
+}
+
+header h1 {
+  text-align: center;
+
+}
+
+header p {
+  text-align: center;
+
+}
+
+.seq .seq-step1 {
+  /*background-color: #279FE5;*/
+  background-image: url(../images/syrian_boys.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
