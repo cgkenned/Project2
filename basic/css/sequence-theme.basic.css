@@ -44,7 +44,7 @@ html,
   margin: 0 auto;
   padding: 0;
   /* Some basic styles */
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .seq .seq-pagination,
@@ -102,17 +102,37 @@ html,
 
 .seq .seq-pagination > *:nth-child(1):focus,
 .seq .seq-pagination > *:nth-child(1):hover {
-  background-color: #279FE5;
+  background-color: #F2A349;
 }
 
 .seq .seq-pagination > *:nth-child(2):focus,
 .seq .seq-pagination > *:nth-child(2):hover {
-  background-color: #F96852;
+  background-color: #F2A349;
 }
 
 .seq .seq-pagination > *:nth-child(3):focus,
 .seq .seq-pagination > *:nth-child(3):hover {
-  background-color: #2BBF8E;
+  background-color: #F2A349;
+}
+
+.seq .seq-pagination > *:nth-child(4):focus,
+.seq .seq-pagination > *:nth-child(4):hover {
+  background-color: #F2A349;
+}
+
+.seq .seq-pagination > *:nth-child(5):focus,
+.seq .seq-pagination > *:nth-child(5):hover {
+  background-color: #F2A349;
+}
+
+.seq .seq-pagination > *:nth-child(6):focus,
+.seq .seq-pagination > *:nth-child(6):hover {
+  background-color: #F2A349;
+}
+
+.seq .seq-pagination > *:nth-child(7):focus,
+.seq .seq-pagination > *:nth-child(7):hover {
+  background-color: #F2A349;
 }
 
 .seq .seq-canvas {
@@ -168,7 +188,7 @@ html,
   border: white solid 2px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   -webkit-transition-duration: .25s;
@@ -183,30 +203,66 @@ html,
 }
 
 .seq .seq-step1 {
-  background-color: #279FE5;
+  /*background-color: #279FE5;*/
 }
 
 .seq .seq-step1 .seq-button:focus,
 .seq .seq-step1 .seq-button:hover {
-  color: #279FE5;
+  color: #F2A349;
 }
 
 .seq .seq-step2 {
-  background-color: #F96852;
+  background-color: #ADB7DD;
 }
 
 .seq .seq-step2 .seq-button:focus,
 .seq .seq-step2 .seq-button:hover {
-  color: #F96852;
+  color: #F2A349;
 }
 
 .seq .seq-step3 {
-  background-color: #2BBF8E;
+  background-color: #ADB7DD;
 }
 
 .seq .seq-step3 .seq-button:focus,
 .seq .seq-step3 .seq-button:hover {
-  color: #2BBF8E;
+  color: #F2A349;
+}
+
+.seq .seq-step4 {
+  background-color: #ADB7DD;
+}
+
+.seq .seq-step4 .seq-button:focus,
+.seq .seq-step4 .seq-button:hover {
+  color: #F2A349;
+}
+
+.seq .seq-step5 {
+  background-color: #ADB7DD;
+}
+
+.seq .seq-step5 .seq-button:focus,
+.seq .seq-step5 .seq-button:hover {
+  color: #F2A349;
+}
+
+.seq .seq-step6 {
+  background-color: #ADB7DD;
+}
+
+.seq .seq-step6 .seq-button:focus,
+.seq .seq-step6 .seq-button:hover {
+  color: #F2A349;
+}
+
+.seq .seq-step7 {
+  background-color: #ADB7DD;
+}
+
+.seq .seq-step7 .seq-button:focus,
+.seq .seq-step7 .seq-button:hover {
+  color: #F2A349;
 }
 
 .seq .seq-title,
@@ -230,7 +286,7 @@ html,
 }
 
 .seq .seq-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.8em;
 }
 
