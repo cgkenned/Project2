@@ -1,5 +1,7 @@
 /*header*/
 body {
+    display: block;
+    margin: 0;
 }
 
 body h1 {
@@ -20,9 +22,168 @@ header p {
 
 }
 
-.seq .seq-step1 {
+.seq .seq-step2 {
   /*background-color: #279FE5;*/
   background-image: url(../images/syrian_boys.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.seq .seq-step3 {
+  /*background-color: #279FE5;*/
+  background-image: url(../images/night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+    width:200px;
+    margin:0 auto; /*centers the div horizontally in all browsers (except IE)*/
+    background:#ADB7DD;
+    text-align:left; /*resets text alignment from body tag */
+    border:1px solid #ccc;
+    border-top:none;
+    padding:25px;
+    /*Let's add some CSS3 styles, these will degrade gracefully in older browser and IE*/
+    border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    box-shadow:0 0 5px #ccc;
+    -moz-box-shadow:0 0 5px #ccc;
+    -webkit-box-shadow:0 0 5px #ccc;
+}
+
+#wrapper:hover {
+  background:#fff;
+}
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url(overlay.png) repeat;
+    text-align:center;
+}
+
+#lightbox p {
+    text-align:right;
+    color:#fff;
+    margin-right:20px;
+    font-size:12px;
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/*newsquiz*/
+
+.possible_answer  {
+    padding: .75em;
+}
+
+.possible_answer:hover {
+	background: #ADB7DD;
+  color: white;
+	cursor: pointer;
+    font-weight: bold;
+}
+
+.correct-answer, .wrong-answer {
+	opacity: .75;
+	cursor: pointer;
+}
+
+.wrong-answer {
+	background: #FF8362;
+}
+
+.correct-answer {
+    background: #62DA97;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.selected:hover, .correct-answer:hover, .wrong-answer:hover {
+	opacity: 1;
+}
+
+.how_you_did {
+	text-align: center;
+	padding: 1em;
+	background-color: #F2A349;
+  color: white;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+/*multimedia styling*/
+
+img, .youtube {
+	margin-bottom: 1em;
+	min-height: 200px;
+	max-height: 200px;
+}
+
+.possible_answer img {
+	max-height: 24em;
+}
+
+.question img, .revealed_answer img, .selected img, .correct-answer img, .wrong-answer img {
+    max-height: 24em;
+    display: block;
+}
+
+.videoembed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.videoembed iframe, .videoembed object, .videoembed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
