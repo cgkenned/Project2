@@ -83,7 +83,7 @@ html,
 .seq .seq-pagination > * {
   margin: 0 4px;
   padding: 0;
-  display: inline-block;
+  display: inline-table;
   zoom: 1;
   width: 28px;
   height: 28px;
@@ -203,7 +203,7 @@ html,
 }
 
 .seq .seq-step1 {
-  /*background-color: #279FE5;*/
+  background-color: #ADB7DD;
 }
 
 .seq .seq-step1 .seq-button:focus,
@@ -212,7 +212,7 @@ html,
 }
 
 .seq .seq-step2 {
-  background-color: #ADB7DD;
+  /*background-color: #ADB7DD;*/
 }
 
 .seq .seq-step2 .seq-button:focus,
